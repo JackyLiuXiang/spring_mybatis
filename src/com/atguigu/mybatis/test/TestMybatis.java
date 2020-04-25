@@ -46,6 +46,7 @@ public class TestMybatis {
             //Mapper接口:获取Mapper接口的 代理实现类对象
             EmployeeDao dao = session.getMapper(EmployeeDao.class);
             Employee employee = dao.getEmployeeById(1);
+            System.out.println("aaaa");
             System.out.println(employee);
         } finally {
             session.close();
