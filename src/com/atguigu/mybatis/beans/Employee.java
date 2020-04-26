@@ -9,6 +9,14 @@ public class Employee {
 
     public Employee() {
     }
+
+    public Employee(Integer id, String lastName, String email, String gender) {
+        this.id = id;
+        this.lastName = lastName;
+        this.email = email;
+        this.gender = gender;
+    }
+
     public Integer getId() {
         return id;
     }
